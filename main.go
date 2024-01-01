@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// Print an error table for sine calculations
-	for i := 0; i < 200; i += 1 {
+	for i := 0; i < 201; i += 1 {
 		// interpolate up to π / 4
 		frac := float64(i) / 400
 		theta := frac * math.Pi
