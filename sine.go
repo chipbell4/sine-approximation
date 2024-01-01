@@ -7,5 +7,5 @@ func OriginalSine(x float64) float64 {
 }
 
 func FastSin(x float64) float64 {
-	return x - x*x*x/6
+	return x - x*x*x/6 + x*x*x*x*x/120
 }
