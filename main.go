@@ -17,6 +17,6 @@ func main() {
 		orig := math.Sin(theta)
 		percentage_error := (math.Abs(fast-orig) / orig) * 100
 
-		fmt.Printf("%f π\t%.2f%%\n", frac, percentage_error)
+		fmt.Printf("%f π\t%.6f%%\n", frac, percentage_error)
 	}
 }
